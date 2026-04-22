@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(layout='wide')
 
 #read data
-df = pd.read_csv('./Global Youtube Statistics.csv', encoding='latin1')
+df = pd.read_csv('Global YouTube Statistics.csv', encoding='latin1')
 pd.set_option("display.float_format", '{:.2}'.format)
 
 #operations
